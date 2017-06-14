@@ -96,7 +96,8 @@
 				TargetAttributes = {
 					F19F09671EF163AA00F3663E = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = CC698P9HKF;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -260,10 +261,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CC698P9HKF;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmsplay.generic.GitUseExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e89669d-9399-4806-ad13-e68832ceeb97";
+				PROVISIONING_PROFILE_SPECIFIER = "Vmsplay Generic Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CC698P9HKF;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmsplay.generic.GitUseExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e89669d-9399-4806-ad13-e68832ceeb97";
+				PROVISIONING_PROFILE_SPECIFIER = "Vmsplay Generic Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
