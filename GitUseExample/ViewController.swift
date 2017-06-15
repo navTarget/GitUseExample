@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonClicked(_ sender: UIButton) {
         print("This is git tutorial")
-        print("Another message for git push")
+        print("Another message for git push") 
     }
 
     override func didReceiveMemoryWarning() {
